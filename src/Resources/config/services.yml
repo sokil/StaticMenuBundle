@@ -1,0 +1,7 @@
+services:
+    static_menu.builder:
+        class: Sokil\StaticMenuBundle\StaticMenuBuilder
+        arguments:
+          - '@knp_menu.factory'
+          - '@translator'
+          - '@security.authorization_checker'
