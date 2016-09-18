@@ -50,8 +50,8 @@ static_menu:
           class: visible-xs
 ```
 
-See item options at vendor/knplabs/knp-menu/src/Knp/Menu/Factory/CoreExtension.php
+See item options at `vendor/knplabs/knp-menu/src/Knp/Menu/Factory/CoreExtension.php`.
 
 ## Menu rendering
 
-KNP menus rendered by calling {{ knp_menu_render('static_menu.someMenuName') }}
+KNP menus rendered by calling `{{ knp_menu_render('static_menu.someMenuName') }}`

@@ -6,10 +6,6 @@ use Knp\Menu\FactoryInterface;
 use Symfony\Component\Translation\TranslatorInterface;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
 
-/**
- * Class Builder
- * @package Sokil\SiteCoreBundle\Menu
- */
 class StaticMenuBuilder
 {
     /**
