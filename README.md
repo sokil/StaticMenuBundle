@@ -10,6 +10,24 @@ You can install bundle through Composer:
 composer require sokil/static-menu-bundle
 ```
 
+Add bundle to AppKernel:
+```php
+<?php
+
+class AppKernel extends Kernel
+{
+    public function registerBundles()
+    {
+        $bundles = array(
+            // required dependencies
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            // menu bundle
+            new Sokil\StaticMenuBundle\StaticMenuBundle(),
+        );
+    }
+}
+```
+
 ## Menu configuration
 
 Configure menu in `app/config/config.yml`
